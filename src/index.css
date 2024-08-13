@@ -1,0 +1,45 @@
+* {
+  user-select: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #333;
+  color: beige;
+  pad: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+  .btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+.scoreboard {
+  font-size: 36px;
+}
+
+.result {
+  font-size: 28px;
+}
+
+.timer {
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 28px;
+}
+  .box:hover{
+    cursor: pointer;
+  }
